@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: azure;
+    
+}
+.App{
+    background-color: rgb(245, 239, 241);
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.App h1{
+    color:red;
+}
+.App input{
+    width:40%;
+    margin-bottom:10px;
+    height:25px;
+    border-radius: 5px;
+    outline:none;
+    border:2px solid blue;
+}
+.App #add-entry{
+    background-color: rgb(6, 116, 24);
+    border:none;
+    width:100px;
+    height:28px;
+    border-radius: 5px;
+    color:white;
+    cursor:pointer;
+}
+.App #add-entry:hover{
+    background-color: rgb(10, 81, 22);;
+    
+}
+.App .ter-btn{
+    color:red;
+    cursor:pointer;
+}
+.App #table-box{
+    height:180px;
+    background-color: rgb(237, 227, 231);
+}
+.App table tr:nth-child(2n){
+    background-color: rgb(189, 217, 248);
+}
+.App table tr:nth-child(2n+1){
+    background-color: rgb(189, 248, 238);
+}
+.App table #head{
+    background-color: rgba(9, 61, 129, 0.527);
+    color:white;
+}
+@media (max-width:700px){
+    .App table{
+        font-size:12px;
+    }
+}
